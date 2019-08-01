@@ -1,4 +1,4 @@
-package za.factory.gender;
+package za.ac.cput.pentec.factory.demography.gender;
 
 import za.domain.gender.Gender;
 

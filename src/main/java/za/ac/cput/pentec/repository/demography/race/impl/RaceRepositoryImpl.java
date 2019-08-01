@@ -1,7 +1,9 @@
-package za.repository.race.impl;
+package za.ac.cput.pentec.repository.demography.race.impl;
 
-import za.domain.race.Race;
-import za.repository.race.RaceRepository;
+
+
+import za.ac.cput.pentec.domain.demography.race.Race;
+import za.ac.cput.pentec.repository.demography.race.RaceRepository;
 
 import java.util.ArrayList;
 import java.util.List;

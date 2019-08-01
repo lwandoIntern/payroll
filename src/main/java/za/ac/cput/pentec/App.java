@@ -1,4 +1,4 @@
-package za;
+package za.ac.cput.pentec;
 
 /**
  * Hello world!

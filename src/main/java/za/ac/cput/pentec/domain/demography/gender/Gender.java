@@ -1,4 +1,4 @@
-package za.domain.gender;
+package za.ac.cput.pentec.domain.demography.gender;
 
 public class Gender {
     private String typeGender;

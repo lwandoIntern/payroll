@@ -1,4 +1,4 @@
-package za.util;
+package za.ac.cput.pentec.util;
 
 import java.util.UUID;
 

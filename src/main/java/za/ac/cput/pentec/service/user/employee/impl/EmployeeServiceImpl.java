@@ -1,8 +1,9 @@
-package za.service.employee.impl;
+package za.ac.cput.pentec.service.user.employee.impl;
 
 import za.ac.cput.pentec.domain.user.employee.Employee;
-import za.repository.employee.impl.EmployeeRepositoryImpl;
-import za.service.employee.EmployeeService;
+import za.ac.cput.pentec.repository.user.employee.impl.EmployeeRepositoryImpl;
+import za.ac.cput.pentec.service.user.employee.EmployeeService;
+
 
 public class EmployeeServiceImpl implements EmployeeService {
     private static EmployeeServiceImpl service = null;

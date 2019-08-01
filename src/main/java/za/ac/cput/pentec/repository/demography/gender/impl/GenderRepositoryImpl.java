@@ -1,14 +1,16 @@
-package za.repository.gender.impl;
+package za.ac.cput.pentec.repository.demography.gender.impl;
 
-import za.domain.gender.Gender;
-import za.repository.gender.GenderRepository;
+
+
+import za.ac.cput.pentec.domain.demography.gender.Gender;
+import za.ac.cput.pentec.repository.demography.gender.GenderRepository;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class GenderRepositoryImpl implements GenderRepository {
     private static GenderRepositoryImpl repository = null;
-    private Map<String,Gender> genderMap;
+    private Map<String, Gender> genderMap;
     private GenderRepositoryImpl(){
         this.genderMap = new HashMap<>();
 

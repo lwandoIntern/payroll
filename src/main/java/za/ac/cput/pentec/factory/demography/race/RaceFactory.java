@@ -1,4 +1,4 @@
-package za.factory.race;
+package za.ac.cput.pentec.factory.demography.race;
 
 import za.domain.race.Race;
 

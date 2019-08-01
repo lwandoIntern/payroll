@@ -1,14 +1,16 @@
-package za.repository.employee.impl;
+package za.ac.cput.pentec.repository.user.employee.impl;
+
+
 
 import za.ac.cput.pentec.domain.user.employee.Employee;
-import za.repository.employee.EmployeeRepository;
+import za.ac.cput.pentec.repository.user.employee.EmployeeRepository;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class EmployeeRepositoryImpl implements EmployeeRepository {
     private static EmployeeRepositoryImpl repository = null;
-    Map<String,Employee> map;
+    Map<String, Employee> map;
 
 
     public EmployeeRepositoryImpl(){

@@ -1,4 +1,4 @@
-package za.domain.race;
+package za.ac.cput.pentec.domain.demography.race;
 
 public class Race {
     private String race;

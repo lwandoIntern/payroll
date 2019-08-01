@@ -1,8 +1,9 @@
-package za.repository.employeeGender.impl;
+package za.ac.cput.pentec.repository.user.employeeGender.impl;
 
 import za.ac.cput.pentec.domain.user.employeeGender.EmployeeGender;
 import za.ac.cput.pentec.domain.user.employee.Employee;
-import za.repository.employee.EmployeeRepository;
+import za.ac.cput.pentec.repository.user.employee.EmployeeRepository;
+
 
 import java.util.HashSet;
 import java.util.Set;
