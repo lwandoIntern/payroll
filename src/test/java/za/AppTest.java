@@ -1,4 +1,4 @@
-package za.ac.cput.pentech.paysys;
+package za;
 
 import static org.junit.Assert.assertTrue;
 
