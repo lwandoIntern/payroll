@@ -14,6 +14,11 @@ public class EmployeeGenderServiceImpl implements EmployeeGenderService {
         this.repository = EmployeeGenderRepositoryImpl.getRepository();
     }
 
+    public static EmployeeGenderServiceImpl getService() {
+        if (service == null)service = new EmployeeGenderServiceImpl();
+        return service;
+    }
+
     @Override
     public Set<EmployeeGender> getAll() {
         return repository.getAll();

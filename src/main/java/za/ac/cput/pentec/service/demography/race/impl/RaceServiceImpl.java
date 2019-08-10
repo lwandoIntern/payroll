@@ -13,6 +13,12 @@ public class RaceServiceImpl implements RaceRepository {
     private RaceServiceImpl(){
         this.repository = RaceRepositoryImpl.getRepository();
     }
+
+    public static RaceServiceImpl getService() {
+        if (service == null)service = new RaceServiceImpl();
+        return service;
+    }
+
     @Override
     public Set<Race> getAll() {
         return repository.getAll();

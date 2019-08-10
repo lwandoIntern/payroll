@@ -14,6 +14,12 @@ public class GenderServiceImpl implements GenderService {
     private GenderServiceImpl(){
         repository = GenderRepositoryImpl.getRepository();
     }
+
+    public static GenderServiceImpl getService() {
+        if (service == null)service = new GenderServiceImpl();
+        return service;
+    }
+
     @Override
     public Set<Gender> getAll() {
         return repository.getAll();

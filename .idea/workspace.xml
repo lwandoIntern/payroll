@@ -2,43 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0858b85e-c73d-444a-91e0-fb2e514f4a16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/payroll.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/factory/demography/gender/GenderFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/factory/demography/race/RaceFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/factory/user/employee/EmployeeFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/factory/user/employeeGender/EmployeeGenderFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/repository/demography/gender/impl/GenderRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/repository/demography/race/impl/RaceRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/repository/user/employee/impl/EmployeeRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/repository/user/employeeGender/impl/EmployeeGenderRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/service/demography/gender/impl/GenderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/service/demography/race/impl/RaceServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/service/user/employee/impl/EmployeeServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/service/user/employeeGender/impl/EmployeeGenderServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/domain/demography/gender/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/domain/demography/gender/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/domain/demography/race/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/domain/demography/race/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/domain/user/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/domain/user/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/domain/user/employeeGender/EmployeeGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/domain/user/employeeGender/EmployeeGender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/demography/gender/GenderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/demography/gender/GenderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/demography/race/RaceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/demography/race/RaceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/user/employee/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/user/employee/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/user/employeeGender/EmployeeGenderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/user/employeeGender/EmployeeGenderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/IRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/demography/gender/GenderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/demography/gender/GenderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/demography/gender/impl/GenderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/demography/gender/impl/GenderRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/demography/race/RaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/demography/race/RaceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/demography/race/impl/RaceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/demography/race/impl/RaceRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/user/employee/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/user/employee/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/user/employee/impl/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/user/employee/impl/EmployeeRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/user/employeeGender/EmployeeGenderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/user/employeeGender/EmployeeGenderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/user/employeeGender/impl/EmployeeGenderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/repository/user/employeeGender/impl/EmployeeGenderRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/gender/GenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/gender/GenderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/gender/impl/GenderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/gender/impl/GenderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/race/RaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/race/RaceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/race/impl/RaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/race/impl/RaceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employeeGender/EmployeeGenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employeeGender/EmployeeGenderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employeeGender/impl/EmployeeGenderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employeeGender/impl/EmployeeGenderServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,11 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="za.ac.cput.pentec.service.user.employeeGender.impl" />
+      <recent name="za.ac.cput.pentec.service.user.employee.impl" />
+      <recent name="za.ac.cput.pentec.service.demography.race.impl" />
+      <recent name="za.ac.cput.pentec.service.demography.gender.impl" />
       <recent name="za.ac.cput.pentec.repository.demography.race.impl" />
-      <recent name="za.ac.cput.pentec.repository.demography.gender.impl" />
-      <recent name="za.ac.cput.pentec.repository.user.employee.impl" />
-      <recent name="za.ac.cput.pentec.repository.user.employeeGender.impl" />
-      <recent name="za.ac.cput.pentec.factory.demography.race" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -108,80 +78,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RaceRepositoryImplTest">
-    <configuration name="RaceRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmployeeGenderServiceImplTest">
+    <configuration name="EmployeeGenderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="za.ac.cput.pentec.repository.demography.race.impl.*" />
+          <option name="PATTERN" value="za.ac.cput.pentec.service.user.employeeGender.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.repository.demography.race.impl" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.repository.demography.race.impl.RaceRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.service.user.employeeGender.impl" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.service.user.employeeGender.impl.EmployeeGenderServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceRepositoryImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="za.ac.cput.pentec.repository.demography.race.impl.*" />
+          <option name="PATTERN" value="za.ac.cput.pentec.service.user.employee.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.repository.demography.race.impl" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.repository.demography.race.impl.RaceRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.service.user.employee.impl" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.service.user.employee.impl.EmployeeServiceImplTest" />
       <option name="METHOD_NAME" value="create" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceRepositoryImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="za.ac.cput.pentec.repository.demography.race.impl.*" />
+          <option name="PATTERN" value="za.ac.cput.pentec.service.user.employee.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.repository.demography.race.impl" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.repository.demography.race.impl.RaceRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.service.user.employee.impl" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.service.user.employee.impl.EmployeeServiceImplTest" />
       <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceRepositoryImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeServiceImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="za.ac.cput.pentec.repository.demography.race.impl.*" />
+          <option name="PATTERN" value="za.ac.cput.pentec.service.user.employee.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.repository.demography.race.impl" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.repository.demography.race.impl.RaceRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.service.user.employee.impl" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.service.user.employee.impl.EmployeeServiceImplTest" />
       <option name="METHOD_NAME" value="read" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceRepositoryImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeServiceImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="za.ac.cput.pentec.repository.demography.race.impl.*" />
+          <option name="PATTERN" value="za.ac.cput.pentec.service.user.employee.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.repository.demography.race.impl" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.repository.demography.race.impl.RaceRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="za.ac.cput.pentec.service.user.employee.impl" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.pentec.service.user.employee.impl.EmployeeServiceImplTest" />
       <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -190,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RaceRepositoryImplTest" />
-        <item itemvalue="JUnit.RaceRepositoryImplTest.create" />
-        <item itemvalue="JUnit.RaceRepositoryImplTest.delete" />
-        <item itemvalue="JUnit.RaceRepositoryImplTest.update" />
-        <item itemvalue="JUnit.RaceRepositoryImplTest.read" />
+        <item itemvalue="JUnit.EmployeeGenderServiceImplTest" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.delete" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.update" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.read" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.create" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +190,7 @@
       <workItem from="1564663922064" duration="6744000" />
       <workItem from="1564987667935" duration="1228000" />
       <workItem from="1565429393996" duration="362000" />
-      <workItem from="1565431125155" duration="2732000" />
+      <workItem from="1565431125155" duration="4951000" />
     </task>
     <task id="LOCAL-00001" summary="restructuring of packages">
       <created>1564656133206</created>
@@ -236,40 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1564657946953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="service in progress">
+      <created>1565435091776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565435091776</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="GenderRepositoryImplTest - 2019.08.01 at 18h 36m 12s.xml">
-      <configuration name="GenderRepositoryImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenderRepositoryImplTest - 2019.08.01 at 18h 37m 29s.xml">
-      <configuration name="GenderRepositoryImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceRepositoryImplTest - 2019.08.01 at 19h 04m 57s.xml">
-      <configuration name="RaceRepositoryImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceRepositoryImplTest_create - 2019.08.01 at 19h 06m 04s.xml">
-      <configuration name="RaceRepositoryImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceRepositoryImplTest_read - 2019.08.01 at 19h 06m 11s.xml">
-      <configuration name="RaceRepositoryImplTest.read" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceRepositoryImplTest_update - 2019.08.01 at 19h 06m 19s.xml">
-      <configuration name="RaceRepositoryImplTest.update" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceRepositoryImplTest_delete - 2019.08.01 at 19h 06m 24s.xml">
-      <configuration name="RaceRepositoryImplTest.delete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceRepositoryImplTest_create - 2019.08.01 at 19h 06m 56s.xml">
-      <configuration name="RaceRepositoryImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceRepositoryImplTest_create - 2019.08.01 at 19h 07m 52s.xml">
-      <configuration name="RaceRepositoryImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceRepositoryImplTest - 2019.08.01 at 19h 09m 18s.xml">
-      <configuration name="RaceRepositoryImplTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -288,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="restructuring of packages" />
     <MESSAGE value="import issues fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="import issues fixed" />
+    <MESSAGE value="service in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="service in progress" />
   </component>
   <component name="masterDetails">
     <states>
