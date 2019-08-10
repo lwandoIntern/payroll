@@ -5,8 +5,7 @@ package za.ac.cput.pentec.repository.demography.gender.impl;
 import za.ac.cput.pentec.domain.demography.gender.Gender;
 import za.ac.cput.pentec.repository.demography.gender.GenderRepository;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class GenderRepositoryImpl implements GenderRepository {
     private static GenderRepositoryImpl repository = null;
@@ -22,22 +21,38 @@ public class GenderRepositoryImpl implements GenderRepository {
     }
 
     @Override
+    public Set<Gender> getAll() {
+        Collection<Gender> genderCollection = this.genderMap.values();
+        Set<Gender> genderSet = new HashSet<>();
+        genderSet.addAll(genderCollection);
+        return genderSet;
+    }
+
+    @Override
     public Gender create(Gender gender) {
-        return null;
+        if(read(gender.getTypeGender())  == null){
+            this.genderMap.put(gender.getTypeGender(),gender);
+        }
+        return gender;
     }
 
     @Override
     public Gender read(String s) {
-        return null;
+        return this.genderMap.get(s);
     }
 
     @Override
-    public Gender update(String s) {
-        return null;
+    public Gender update(Gender gender) {
+        if (read(gender.getTypeGender()) !=null){
+            delete(gender.getTypeGender());
+            create(gender);
+        }
+        return read(gender.getTypeGender());
     }
 
     @Override
     public void delete(String s) {
-
+        Gender gender = read(s);
+        this.genderMap.remove(gender.getGenderId(),gender);
     }
 }

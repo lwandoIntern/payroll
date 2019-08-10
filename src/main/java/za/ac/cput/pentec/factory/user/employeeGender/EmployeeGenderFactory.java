@@ -1,7 +1,8 @@
 package za.ac.cput.pentec.factory.user.employeeGender;
 
 import za.ac.cput.pentec.domain.user.employeeGender.EmployeeGender;
-import za.util.Misc;
+import za.ac.cput.pentec.util.Misc;
+
 
 public class EmployeeGenderFactory {
     public static EmployeeGender createEmployeeGender(){

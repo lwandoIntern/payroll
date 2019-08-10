@@ -4,12 +4,24 @@ import za.ac.cput.pentec.domain.user.employee.Employee;
 import za.ac.cput.pentec.repository.user.employee.impl.EmployeeRepositoryImpl;
 import za.ac.cput.pentec.service.user.employee.EmployeeService;
 
+import java.util.Set;
+
 
 public class EmployeeServiceImpl implements EmployeeService {
     private static EmployeeServiceImpl service = null;
     private EmployeeRepositoryImpl repository;
     private EmployeeServiceImpl(){
         this.repository = new EmployeeRepositoryImpl();
+    }
+
+    public static EmployeeServiceImpl getService() {
+        if (service == null)service = new EmployeeServiceImpl();
+        return service;
+    }
+
+    @Override
+    public Set<Employee> getAll() {
+        return repository.getAll();
     }
 
     @Override
@@ -23,8 +35,8 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public Employee update(String s) {
-        return repository.update(s);
+    public Employee update(Employee employee) {
+        return repository.update(employee);
     }
 
     @Override

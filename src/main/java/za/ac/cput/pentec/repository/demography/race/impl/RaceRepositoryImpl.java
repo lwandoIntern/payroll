@@ -5,8 +5,7 @@ package za.ac.cput.pentec.repository.demography.race.impl;
 import za.ac.cput.pentec.domain.demography.race.Race;
 import za.ac.cput.pentec.repository.demography.race.RaceRepository;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class RaceRepositoryImpl implements RaceRepository {
     private static RaceRepositoryImpl repository = null;
@@ -21,22 +20,41 @@ public class RaceRepositoryImpl implements RaceRepository {
     }
 
     @Override
+    public Set<Race> getAll() {
+        Collection<Race> races = this.raceList;
+        Set<Race> set = new HashSet<>();
+        set.addAll(races);
+        return set;
+    }
+
+    @Override
     public Race create(Race race) {
-        return null;
+        if (read(race.getRaceId()) == null){
+            this.raceList.add(race);
+        }
+        return read(race.getRaceId());
     }
 
     @Override
     public Race read(String s) {
-        return null;
+        return this.raceList.stream()
+                .filter(race -> s.equalsIgnoreCase(race.getRaceId()))
+                .findAny()
+                .orElse(null);
     }
 
     @Override
-    public Race update(String s) {
-        return null;
+    public Race update(Race rce) {
+        if(read(rce.getRaceId()) != null){
+            delete(rce.getRaceId());
+            create(rce);
+        }
+        return read(rce.getRaceId());
     }
 
     @Override
     public void delete(String s) {
-
+        Race race = read(s);
+        this.raceList.remove(race);
     }
 }

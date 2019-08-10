@@ -9,6 +9,15 @@ public class EmployeeGender {
         this.employeeId = builder.employeeId;
         this.genderId = builder.genderId;
     }
+
+    public String getEmployeeId() {
+        return employeeId;
+    }
+
+    public String getGenderId() {
+        return genderId;
+    }
+
     public static class Builder{
         private String employeeId,genderId;
         public Builder employeeId(String id){

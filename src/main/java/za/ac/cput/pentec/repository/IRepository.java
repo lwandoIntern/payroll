@@ -3,6 +3,6 @@ package za.ac.cput.pentec.repository;
 public interface IRepository<T,ID> {
     T create(T t);
     T read(ID id);
-    T update(ID id);
+    T update(T t);
     void delete(ID id);
 }
