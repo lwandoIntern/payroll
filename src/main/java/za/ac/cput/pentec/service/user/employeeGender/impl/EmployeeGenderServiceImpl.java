@@ -1,7 +1,10 @@
 package za.ac.cput.pentec.service.user.employeeGender.impl;
 
+import za.ac.cput.pentec.domain.user.employee.Employee;
 import za.ac.cput.pentec.domain.user.employeeGender.EmployeeGender;
 import za.ac.cput.pentec.repository.user.employeeGender.impl.EmployeeGenderRepositoryImpl;
+import za.ac.cput.pentec.service.user.employee.EmployeeService;
+import za.ac.cput.pentec.service.user.employee.impl.EmployeeServiceImpl;
 import za.ac.cput.pentec.service.user.employeeGender.EmployeeGenderService;
 
 import java.util.Set;
@@ -27,6 +30,9 @@ public class EmployeeGenderServiceImpl implements EmployeeGenderService {
     @Override
     public EmployeeGender create(EmployeeGender employeeGender) {
         return repository.create(employeeGender);
+    }
+    public static EmployeeService getEmployeeService(){
+        return EmployeeServiceImpl.getService();
     }
 
     @Override

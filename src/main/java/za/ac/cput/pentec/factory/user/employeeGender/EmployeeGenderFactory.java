@@ -5,7 +5,7 @@ import za.ac.cput.pentec.util.Misc;
 
 
 public class EmployeeGenderFactory {
-    public static EmployeeGender createEmployeeGender(){
+    public static EmployeeGender createEmployeeGender(String employeeId,String generId){
         return new EmployeeGender.Builder()
                 .employeeId(Misc.generateId())
                 .genderId(Misc.generateId())

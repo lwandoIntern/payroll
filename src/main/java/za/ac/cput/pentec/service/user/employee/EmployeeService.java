@@ -1,5 +1,7 @@
 package za.ac.cput.pentec.service.user.employee;
 
+import za.ac.cput.pentec.domain.demography.gender.Gender;
+import za.ac.cput.pentec.domain.demography.race.Race;
 import za.ac.cput.pentec.domain.user.employee.Employee;
 import za.ac.cput.pentec.service.IService;
 

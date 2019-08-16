@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0858b85e-c73d-444a-91e0-fb2e514f4a16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/service/demography/gender/impl/GenderServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/service/demography/race/impl/RaceServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/service/user/employee/impl/EmployeeServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/pentec/service/user/employeeGender/impl/EmployeeGenderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/GenericService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/gender/impl/GenderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/gender/impl/GenderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/race/impl/RaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/demography/race/impl/RaceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/user/employeeGender/EmployeeGenderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/factory/user/employeeGender/EmployeeGenderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employee/impl/EmployeeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employeeGender/impl/EmployeeGenderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/pentec/service/user/employeeGender/impl/EmployeeGenderServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +15,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +41,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1PEErKomxnpATJKchZ9i6fQBtMV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -51,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -190,7 +194,10 @@
       <workItem from="1564663922064" duration="6744000" />
       <workItem from="1564987667935" duration="1228000" />
       <workItem from="1565429393996" duration="362000" />
-      <workItem from="1565431125155" duration="4951000" />
+      <workItem from="1565431125155" duration="7141000" />
+      <workItem from="1565441323838" duration="554000" />
+      <workItem from="1565592696458" duration="4127000" />
+      <workItem from="1565961839755" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="restructuring of packages">
       <created>1564656133206</created>
@@ -213,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565435091776</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tests done">
+      <created>1565437392776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565437392776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +238,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -234,7 +250,8 @@
     <MESSAGE value="restructuring of packages" />
     <MESSAGE value="import issues fixed" />
     <MESSAGE value="service in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="service in progress" />
+    <MESSAGE value="tests done" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests done" />
   </component>
   <component name="masterDetails">
     <states>

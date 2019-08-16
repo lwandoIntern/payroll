@@ -1,6 +1,9 @@
 package za.ac.cput.pentec.service.user.employee.impl;
 
+import za.ac.cput.pentec.domain.demography.gender.Gender;
+import za.ac.cput.pentec.domain.demography.race.Race;
 import za.ac.cput.pentec.domain.user.employee.Employee;
+import za.ac.cput.pentec.repository.demography.gender.impl.GenderRepositoryImpl;
 import za.ac.cput.pentec.repository.user.employee.impl.EmployeeRepositoryImpl;
 import za.ac.cput.pentec.service.user.employee.EmployeeService;
 
@@ -23,6 +26,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Set<Employee> getAll() {
         return repository.getAll();
     }
+
 
     @Override
     public Employee create(Employee employee) {
